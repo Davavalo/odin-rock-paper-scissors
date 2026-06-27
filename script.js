@@ -70,7 +70,7 @@ paperBtn.addEventListener("click", () => {
 });
 
 scissorBtn.addEventListener("click", () => {
-  playRound("scissor", getComputerChoice());
+  playRound("scissors", getComputerChoice());
 });
 
 const resetGame = () => {
